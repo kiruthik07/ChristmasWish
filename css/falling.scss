@@ -1,0 +1,533 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Caudex', serif;
+// font-family: 'Cinzel Decorative', cursive;
+
+body{
+    background-color: rgb(211, 23, 23);
+    animation: loading 4s forwards;
+}
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    margin-top: -21em;
+    .content{
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+.tree{
+    transform: scaleX(-1);
+}
+
+a{
+    text-decoration: none;
+    h4{
+        display: inline;
+        font-family: 'Caudex', serif;
+        font-size: 1.5em;
+    }
+    img{
+        animation: shake 1.5s infinite;
+    }
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+h4{
+    text-align: center;
+    font-family: 'Maitree', serif;
+    color: white;
+    font-size: 1.65rem;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.snowMan{
+
+    -webkit-transform: rotate(-10deg); 
+    -moz-transform: rotate(-10deg); 
+    -o-transform: rotate(-10deg); 
+    -ms-transform: rotate(-10deg); 
+    transform: rotate(-10deg);
+
+    animation: shake 3s infinite;
+
+}
+
+@keyframes shake{
+    0%{
+        -webkit-transform: rotate(-10deg); 
+        -moz-transform: rotate(-10deg); 
+        -o-transform: rotate(-10deg); 
+        -ms-transform: rotate(-10deg); 
+        transform: rotate(-10deg);
+    }
+    // 50%{
+    //     -webkit-transform: rotate(0deg); 
+    //     -moz-transform: rotate(0deg); 
+    //     -o-transform: rotate(0deg); 
+    //     -ms-transform: rotate(0deg); 
+    //     transform: rotate(0deg);
+    // }
+    50%{
+        -webkit-transform: rotate(10deg); 
+        -moz-transform: rotate(10deg); 
+        -o-transform: rotate(10deg); 
+        -ms-transform: rotate(10deg); 
+        transform: rotate(10deg);
+    }
+    100%{
+        -webkit-transform: rotate(-10deg); 
+        -moz-transform: rotate(-10deg); 
+        -o-transform: rotate(-10deg); 
+        -ms-transform: rotate(-10deg); 
+        transform: rotate(-10deg);
+    }
+}
+
+
+// snows
+
+.snows{
+    img{
+        position: relative;
+        margin-left: 8%;
+        margin-right: 8%;
+        transform: translateY(-2em);
+        animation: fall 10s infinite;
+    }
+}
+
+.snows2{
+    img{
+        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+        transform: translateY(-8em);
+        animation: fall2 10s infinite;
+    }
+}
+
+.snows3{
+    img{
+        position: relative;
+        margin-left: 2%;
+        margin-right: 8%;
+        transform: translateY(-20em);
+        animation: fall3 12s infinite;
+    }
+}
+
+.snows4{
+    img{
+        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+        transform: translateY(-26em);
+        animation: fall4 12s infinite;
+    }
+}
+
+.snows5{
+    img{
+        position: relative;
+        margin-left: 8%;
+        margin-right: 8%;
+        transform: translateY(-36em);
+        animation: fall5 6s infinite;
+    }
+}
+
+.snows6{
+    img{
+        position: relative;
+        margin-left: 12%;
+        margin-right: 12%;
+        transform: translateY(-38em);
+        animation: fall6 10s infinite;
+    }
+}
+
+.snows7{
+    img{
+        position: relative;
+        margin-left: 6%;
+        margin-right: 14%;
+        transform: translateY(-16em);
+        animation: fall7 12s infinite;
+    }
+}
+
+.snows8{
+    img{
+        position: relative;
+        margin-left: 18%;
+        margin-right: 2%;
+        transform: translateY(-16em);
+        animation: fall8 12s infinite;
+    }
+}
+
+.snows9{
+    img{
+        position: relative;
+        margin-left: 2%;
+        margin-right: 12%;
+        transform: translateY(-32em);
+        animation: fall9 8s infinite;
+    }
+}
+
+.snows10{
+    img{
+        position: relative;
+        margin-left: 4%;
+        margin-right: 12%;
+        transform: translateY(-32em);
+        animation: fall10 12s infinite;
+    }
+}
+.snows11{
+    img{
+        position: relative;
+        margin-left: 17%;
+        margin-right: 0;
+        transform: translateY(-38em);
+        animation: fall11 12s infinite;
+    }
+}
+
+
+
+
+@keyframes fall {
+    from{
+        transform: translateY(-2em);
+    }
+    to{
+        transform: translateY(30em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall2 {
+    from{
+        transform: translateY(-8em);
+    }
+    to{
+        transform: translateY(24em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall3 {
+    from{
+        transform: translateY(-20em);
+    }
+    to{
+        transform: translateY(15em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall4 {
+    from{
+        transform: translateY(-26em);
+    }
+    to{
+        transform: translateY(10em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall5 {
+    from{
+        transform: translateY(-36em);
+    }
+    to{
+        transform: translateY(10em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall6 {
+    from{
+        transform: translateY(-38em);
+    }
+    to{
+        transform: translateY(4em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall7 {
+    from{
+        transform: translateY(-16em);
+    }
+    to{
+        transform: translateY(12em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall8 {
+    from{
+        transform: translateY(-16em);
+    }
+    to{
+        transform: translateY(18em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall9 {
+    from{
+        transform: translateY(-32em);
+    }
+    to{
+        transform: translateY(18em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall10 {
+    from{
+        transform: translateY(-32em);
+    }
+    to{
+        transform: translateY(18em);
+        opacity: 0.3;
+    }
+}
+
+@keyframes fall11 {
+    from{
+        transform: translateY(-38em);
+    }
+    to{
+        transform: translateY(10em);
+        opacity: 0.3;
+    }
+}
+
+
+@media only screen and (max-width: 860px){
+    a{
+        img{
+            width: 6%;
+        }
+    }
+    .snowFlake{
+        img{
+            width: 3%;
+            
+        }
+    }
+    
+.snows{
+    img{
+        animation: fall 7s infinite;
+    }
+}
+
+.snows2{
+    img{
+        animation: fall2 8s infinite;
+    }
+}
+
+.snows3{
+    img{
+        animation: fall3 7s infinite;
+    }
+}
+
+.snows4{
+    img{
+        animation: fall4 14s infinite;
+    }
+}
+
+.snows5{
+    img{
+        animation: fall5 14s infinite;
+    }
+}
+
+.snows6{
+    img{
+        animation: fall6 10s infinite;
+    }
+}
+
+.snows7{
+    img{
+        animation: fall7 12s infinite;
+    }
+}
+
+.snows8{
+    img{
+        animation: fall8 6s infinite;
+    }
+}
+
+.snows9{
+    img{
+        animation: fall9 12s infinite;
+    }
+}
+
+.snows10{
+    img{
+        animation: fall10 12s infinite;
+    }
+}
+.snows11{
+    img{
+        animation: fall11 10s infinite;
+    }
+}
+
+    .row{
+        display: block;
+        margin-top: -21em;
+        .content{
+            align-items: center;
+            text-align: center;
+            img{
+                width: 27%;
+            }
+            .snowMan{
+                width: 20%;
+            }
+    }
+
+    }
+
+    .tree{
+    display: none;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+    }
+    h4{
+        text-align: center;
+        color: white;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .snowMan{
+        -webkit-transform: rotate(-10deg); 
+        -moz-transform: rotate(-10deg); 
+        -o-transform: rotate(-10deg); 
+        -ms-transform: rotate(-10deg); 
+        transform: rotate(-10deg);
+
+        animation: shake 3s infinite;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 660px){
+    a{
+        h4{
+            font-size: 1.2em;
+        }
+    }
+    .snowFlake{
+        img{
+            width: 4%;
+            
+        }
+    }
+    .row{
+        display: block;
+        margin-top: -20em;
+        .content{
+            align-items: center;
+            text-align: center;
+            img{
+                width: 36%;
+            }
+            .snowMan{
+                width: 30%;
+            }
+        }
+    }
+    
+
+}
+
+@media only screen and (min-width: 861px) and (max-width: 1100px ){
+    .row{
+        display: flex;
+        justify-content: space-around;
+        margin-top: -8em;
+        .content{
+            align-items: center;
+            text-align: center;
+            img{
+                width: 80%;
+            }
+            .snowMan{
+                width: 45%;
+            }
+        }
+    }
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 2.8rem;
+        letter-spacing: 1px;
+    }
+    h4{
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}
+
+
+// @media only screen and (min-width: 540px) and (max-width: 660px){
+//     .row{
+//         margin-top: -22em;
+//     }
+// }
+
+@keyframes blink {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+// page animation
+
+@keyframes loading {
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0)
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
